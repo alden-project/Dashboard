@@ -1,0 +1,7 @@
+{
+	"dashboard.desc": "Generate OTP for dashboard login",
+	"dashboard.usage": "",
+	"dashboard.otp.message": "Your dashboard OTP: {otp}\nThis code expires in 5 minutes.\nOpen {url} to login.",
+	"dashboard.otp.dm_only": "This command only works in DM.",
+	"dashboard.otp.no_access": "You do not manage any group that can use the dashboard."
+}

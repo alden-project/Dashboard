@@ -1,0 +1,15 @@
+{
+	"name": "dashboard-plugin",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"typecheck": "node ../../node_modules/typescript/bin/tsc -p tsconfig.json --noEmit",
+		"test": "node ../../node_modules/vitest/vitest.mjs run tests --config ../../vitest.config.ts",
+		"verify": "pnpm run typecheck && pnpm run test"
+	},
+	"dependencies": {
+		"hono": "^4.7.0",
+		"@hono/node-server": "^1.13.0"
+	}
+}

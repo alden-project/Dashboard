@@ -1,0 +1,7 @@
+{
+	"dashboard.desc": "Tạo OTP để đăng nhập dashboard",
+	"dashboard.usage": "",
+	"dashboard.otp.message": "Mã OTP dashboard của bạn: {otp}\nMã này hết hạn sau 5 phút.\nMở {url} để đăng nhập.",
+	"dashboard.otp.dm_only": "Lệnh này chỉ hoạt động trong tin nhắn riêng.",
+	"dashboard.otp.no_access": "Bạn không quản lý nhóm nào có thể dùng dashboard."
+}
